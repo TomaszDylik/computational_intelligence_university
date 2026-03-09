@@ -1,32 +1,38 @@
-import pandas as pd
 import os
+import pandas as pd
 
-csv_path = os.path.join(os.path.dirname(__file__), 'iris_big_with_errors.csv')
-df = pd.read_csv(csv_path, on_bad_lines='skip')
+base_dir = os.path.dirname(__file__)
+csv_path = os.path.join(base_dir, 'iris_big_with_errors.csv')
+output_path = os.path.join(base_dir, 'iris_big_cleaned.csv')
 
-print("\n--- NAPRAWA DANYCH NUMERYCZNYCH ---")
+df_raw = pd.read_csv(csv_path, on_bad_lines='skip')
 
-kolumny_liczbowe = df.select_dtypes(include=['float64', 'int64']).columns
+species_column = 'target_name'
+feature_columns = [column for column in df_raw.columns if column != species_column]
 
-for kolumna in kolumny_liczbowe:
-    poprawne_dane = df[(df[kolumna] > 0) & (df[kolumna] < 15)][kolumna]
-    mediana = poprawne_dane.median()
-    
-    df.loc[(df[kolumna] <= 0) | (df[kolumna] >= 15), kolumna] = float('nan')
-    
-    df[kolumna] = df[kolumna].fillna(mediana)
+df_dirty = df_raw.copy()
 
-print("Liczby naprawione! Możesz użyć df.describe() by sprawdzić, czy min i max są teraz w normie.")
+for column in feature_columns:
+    df_dirty[column] = pd.to_numeric(df_dirty[column], errors='coerce')
 
-print("\n--- NAPRAWA GATUNKÓW ---")
+# Dane sa w 5 kolumnach: 4 numeryczne i 1 z gatunkiem.
+# Strukture psuja wiersze, ktore maja zla liczbe kolumn.
 
-nazwa_kolumny = 'target_name' 
+print('\nbraki_danych:')
+print(df_dirty.isna().sum().to_string())
+print('suma_brakow:', int(df_dirty.isna().sum().sum()))
 
-print("Przed naprawą:", df[nazwa_kolumny].unique())
+df_clean = df_dirty.copy()
 
-df[nazwa_kolumny] = df[nazwa_kolumny].str.lower().str.strip()
+for column in feature_columns:
+    valid_mask = df_clean[column].between(0, 15, inclusive='neither')
+    median = df_clean.loc[valid_mask, column].median()
+    df_clean.loc[~valid_mask, column] = pd.NA
+    df_clean[column] = df_clean[column].fillna(median)
 
-poprawki = {
+species = df_clean[species_column].astype('string').str.lower().str.strip()
+unique_species_before = sorted(species.dropna().unique().tolist())
+species_fixes = {
     'setossa': 'setosa',
     'versicolour': 'versicolor',
     'virginicaa': 'virginica',
@@ -37,10 +43,13 @@ poprawki = {
     'versicolr': 'versicolor',
     'versi-color': 'versicolor',
     'setosa.': 'setosa',
-
-    #
 }
+valid_species = ['setosa', 'versicolor', 'virginica']
 
-df[nazwa_kolumny] = df[nazwa_kolumny].replace(poprawki)
+species = species.replace(species_fixes)
+df_clean[species_column] = species
+df_clean.to_csv(output_path, index=False)
 
-print("Po naprawie:", df[nazwa_kolumny].unique())
+print('\nunikatowe_gatunki_przed:', unique_species_before)
+print('gatunki_po_naprawie:', sorted(df_clean[species_column].dropna().unique().tolist()))
+print('\nzapisano:', output_path)
