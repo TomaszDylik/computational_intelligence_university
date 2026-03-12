@@ -43,6 +43,7 @@ species_fixes = {
     'versicolr': 'versicolor',
     'versi-color': 'versicolor',
     'setosa.': 'setosa',
+    'unknown': pd.NA,
 }
 valid_species = ['setosa', 'versicolor', 'virginica']
 
