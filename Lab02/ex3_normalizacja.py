@@ -6,13 +6,10 @@ import pandas as pd
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-
-# Przygotowanie sciezek do danych i pliku z wykresami.
 base_dir = os.path.dirname(__file__)
 csv_path = os.path.join(base_dir, 'iris_big.csv')
 plot_path = os.path.join(base_dir, 'iris_normalizacja.png')
 
-# Wczytanie danych i wybor dwoch kolumn.
 df = pd.read_csv(csv_path)
 x_column = 'sepal length (cm)'
 y_column = 'sepal width (cm)'

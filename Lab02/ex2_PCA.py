@@ -7,22 +7,18 @@ from sklearn.decomposition import PCA
 matplotlib.use('Agg') # generowanie wykresow bez wyswietlania ich na ekranie
 import matplotlib.pyplot as plt
 
-
-# Przygotowanie sciezek do plikow wejsciowych i wyjsciowych.
-base_dir = os.path.dirname(__file__) # sciezka do katalogu gdzie jest skrypt
+base_dir = os.path.dirname(__file__)
 csv_path = os.path.join(base_dir, 'iris_big.csv')
 output_2d_path = os.path.join(base_dir, 'iris_pca_2d.csv')
 output_3d_path = os.path.join(base_dir, 'iris_pca_3d.csv')
 plot_2d_path = os.path.join(base_dir, 'iris_pca_2d.png')
 plot_3d_path = os.path.join(base_dir, 'iris_pca_3d.png')
 
-# Wczytanie calej tabeli z pliku CSV.
 df = pd.read_csv(csv_path)
 
 species_column = 'target_name'
 feature_columns = []
 
-# Zostawiamy tylko kolumny numeryczne, bo PCA dziala na liczbach.
 for column in df.columns:
     if column != species_column:
         feature_columns.append(column)
@@ -30,7 +26,6 @@ for column in df.columns:
 X = df[feature_columns]
 y = df[species_column]
 
-# Najpierw liczymy PCA dla wszystkich 4 skladowych, aby sprawdzic wariancje.
 pca_full = PCA(n_components=4)
 pca_full.fit(X)
 
@@ -40,7 +35,6 @@ variance_3d = explained_variance[:3].sum()
 loss_2d = 1 - variance_2d
 loss_3d = 1 - variance_3d
 
-# Wypisanie, ile informacji daje kazda skladowa i ile zostaje po redukcji.
 print('wariancja_wyjasniona_przez_kolejne_skladowe:')
 for index, value in enumerate(explained_variance, start=1):
 	print(f'PC{index}: {value:.6f}')
@@ -55,28 +49,28 @@ print(f'po_usunieciu_1_kolumny: {loss_3d:.6f}')
 
 print('\nwniosek: mozna usunac 2 kolumny, bo zostaje ponad 95% wariancji.')
 
-# Tworzymy nowa baze 2D z kolumnami PC1 i PC2.
+# nowa baza 2D z kolumnami PC1 i PC2
 pca_2d = PCA(n_components=2)
 data_2d = pca_2d.fit_transform(X)
 df_2d = pd.DataFrame(data_2d, columns=['PC1', 'PC2'])
 df_2d[species_column] = y
 df_2d.to_csv(output_2d_path, index=False)
 
-# Tworzymy tez wersje 3D z kolumnami PC1, PC2 i PC3.
+# nowa baza 3D z kolumnami PC1, PC2 i PC3
 pca_3d = PCA(n_components=3)
 data_3d = pca_3d.fit_transform(X)
 df_3d = pd.DataFrame(data_3d, columns=['PC1', 'PC2', 'PC3'])
 df_3d[species_column] = y
 df_3d.to_csv(output_3d_path, index=False)
 
-# Kolory punktow dla poszczegolnych gatunkow na wykresach.
+# kolory punktow dla poszczegolnych gatunkow na wykresach
 colors = {
-	'setosa': 'tab:blue',
-	'versicolor': 'tab:red',
-	'virginica': 'tab:green',
+	'setosa': 'tab:red',
+	'versicolor': 'tab:green',
+	'virginica': 'tab:blue',
 }
 
-# Wykres 2D po redukcji do dwoch skladowych.
+# wykres 2D po redukcji do dwoch skladowych.
 plt.figure(figsize=(8, 6))
 for species in y.unique():
 	mask = y == species
@@ -96,7 +90,7 @@ plt.tight_layout()
 plt.savefig(plot_2d_path, dpi=150)
 plt.close()
 
-# Wykres 3D po redukcji do trzech skladowych.
+# wykres 3D po redukcji do trzech skladowych.
 fig = plt.figure(figsize=(9, 7))
 ax = fig.add_subplot(111, projection='3d')
 
