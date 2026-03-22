@@ -1,40 +1,26 @@
-"""
-Lab04 - ex1_siec.py
-
-Ręczna implementacja małej sieci neuronowej (2-2-1):
-1) Forward propagation
-2) Obliczenie funkcji straty (MSE)
-3) Backpropagation
-4) Jedna aktualizacja wag i biasów (gradient descent)
-
-Brak bibliotek typu scikit-learn / tensorflow.
-"""
-
 import math
 
-
+# Funkcja aktywacji: mapuje dowolne z na zakres (0, 1).
 def sigmoid(z: float) -> float:
 	return 1.0 / (1.0 + math.exp(-z))
 
 
+# Blad sredniokwadratowy dla jednej probki.
 def mse_loss(y_hat: float, y_true: float) -> float:
 	return 0.5 * (y_hat - y_true) ** 2
 
 
-def run_one_training_step() -> None:
-	# Wejście i etykieta (docelowa wartość).
+# Jeden pelny krok uczenia: forward, loss, backprop i aktualizacja wag.
+def forward_propagation() -> None:
 	x1 = 0.6
 	x2 = 0.1
-	y_true = 1.0
+	y_true = 0.8
 
-	# Learning rate.
 	eta = 0.1
 
-	# Wagi i biasy (2-2-1).
-	# Możesz je podmienić 1:1 na wartości z obrazka od prowadzącego.
-	w1, w2, b1 = 0.20, 0.30, 0.40
-	w3, w4, b2 = -0.40, 0.20, 0.10
-	w5, w6, b3 = 1.26, -0.80, -1.631
+	w1, w2, b1 = 0.20, -0.30, 0.40
+	w3, w4, b2 = -0.50, 0.10, -0.20
+	w5, w6, b3 = 0.30, -0.40, 0.20
 
 	print("=== FORWARD PROPAGATION ===")
 
@@ -46,9 +32,9 @@ def run_one_training_step() -> None:
 	z_h2 = x1 * w3 + x2 * w4 + b2
 	h2 = sigmoid(z_h2)
 
-	# Output neuron y_hat
+	# Output neuron y_hat (w tym zadaniu bez aktywacji na wyjsciu)
 	z_o = h1 * w5 + h2 * w6 + b3
-	y_hat = sigmoid(z_o)
+	y_hat = z_o
 
 	print(f"z_h1 = {z_h1:.6f}, h1 = {h1:.6f}")
 	print(f"z_h2 = {z_h2:.6f}, h2 = {h2:.6f}")
@@ -58,8 +44,7 @@ def run_one_training_step() -> None:
 	print(f"Loss = 0.5 * (y_hat - y)^2 = {loss:.6f}")
 
 	print("\n=== BACKPROPAGATION ===")
-	# delta_out = dL/dz_o = (y_hat - y) * sigmoid'(z_o)
-	delta_out = (y_hat - y_true) * y_hat * (1.0 - y_hat)
+	delta_out = y_hat - y_true
 
 	# Gradienty warstwy wyjściowej
 	dL_dw5 = delta_out * h1
@@ -109,9 +94,5 @@ def run_one_training_step() -> None:
 	print(f"b2: {b2:.6f} -> {b2_new:.6f}")
 	print(f"b3: {b3:.6f} -> {b3_new:.6f}")
 
-	print("\nUwaga: jesli wstawisz dokladnie liczby z Twojego polecenia, ")
-	print("to dostaniesz 1:1 wyniki z kartki/prowadzacego.")
-
-
 if __name__ == "__main__":
-	run_one_training_step()
+	forward_propagation()
