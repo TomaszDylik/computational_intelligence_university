@@ -1,0 +1,259 @@
+{
+  "source": "office_yolo.png",
+  "confidence_threshold": 0.3,
+  "detections": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.940788,
+      "bbox_xyxy": [
+        463.6683,
+        57.018,
+        1005.5369,
+        755.1397
+      ]
+    },
+    {
+      "class_id": 62,
+      "class_name": "tv",
+      "confidence": 0.909094,
+      "bbox_xyxy": [
+        886.2894,
+        31.4928,
+        1257.1016,
+        264.664
+      ]
+    },
+    {
+      "class_id": 67,
+      "class_name": "cell phone",
+      "confidence": 0.897452,
+      "bbox_xyxy": [
+        259.9018,
+        809.542,
+        450.7205,
+        903.1329
+      ]
+    },
+    {
+      "class_id": 58,
+      "class_name": "potted plant",
+      "confidence": 0.892653,
+      "bbox_xyxy": [
+        1160.201,
+        238.1587,
+        1316.0485,
+        419.1311
+      ]
+    },
+    {
+      "class_id": 45,
+      "class_name": "bowl",
+      "confidence": 0.864698,
+      "bbox_xyxy": [
+        762.2348,
+        869.8408,
+        996.4607,
+        1021.9929
+      ]
+    },
+    {
+      "class_id": 63,
+      "class_name": "laptop",
+      "confidence": 0.861968,
+      "bbox_xyxy": [
+        211.6021,
+        521.8361,
+        696.4532,
+        805.8104
+      ]
+    },
+    {
+      "class_id": 58,
+      "class_name": "potted plant",
+      "confidence": 0.848805,
+      "bbox_xyxy": [
+        427.6727,
+        301.6295,
+        507.2845,
+        411.8857
+      ]
+    },
+    {
+      "class_id": 75,
+      "class_name": "vase",
+      "confidence": 0.835537,
+      "bbox_xyxy": [
+        1475.4973,
+        455.7084,
+        1535.016,
+        574.9433
+      ]
+    },
+    {
+      "class_id": 57,
+      "class_name": "couch",
+      "confidence": 0.826282,
+      "bbox_xyxy": [
+        0.7387,
+        328.6709,
+        407.0632,
+        657.399
+      ]
+    },
+    {
+      "class_id": 54,
+      "class_name": "donut",
+      "confidence": 0.806647,
+      "bbox_xyxy": [
+        481.4877,
+        880.617,
+        610.9688,
+        981.0518
+      ]
+    },
+    {
+      "class_id": 39,
+      "class_name": "bottle",
+      "confidence": 0.792088,
+      "bbox_xyxy": [
+        884.5776,
+        650.9725,
+        974.7205,
+        890.8351
+      ]
+    },
+    {
+      "class_id": 45,
+      "class_name": "bowl",
+      "confidence": 0.751524,
+      "bbox_xyxy": [
+        0.0,
+        619.3898,
+        182.1787,
+        761.8483
+      ]
+    },
+    {
+      "class_id": 58,
+      "class_name": "potted plant",
+      "confidence": 0.740294,
+      "bbox_xyxy": [
+        1460.7545,
+        301.937,
+        1535.3936,
+        432.0338
+      ]
+    },
+    {
+      "class_id": 75,
+      "class_name": "vase",
+      "confidence": 0.715598,
+      "bbox_xyxy": [
+        440.1776,
+        365.7805,
+        489.722,
+        410.9478
+      ]
+    },
+    {
+      "class_id": 41,
+      "class_name": "cup",
+      "confidence": 0.711166,
+      "bbox_xyxy": [
+        1007.2971,
+        747.6466,
+        1157.2745,
+        895.0893
+      ]
+    },
+    {
+      "class_id": 73,
+      "class_name": "book",
+      "confidence": 0.698121,
+      "bbox_xyxy": [
+        60.7262,
+        754.1997,
+        315.7655,
+        877.0395
+      ]
+    },
+    {
+      "class_id": 56,
+      "class_name": "chair",
+      "confidence": 0.560099,
+      "bbox_xyxy": [
+        996.9468,
+        519.0794,
+        1082.2074,
+        733.2495
+      ]
+    },
+    {
+      "class_id": 60,
+      "class_name": "dining table",
+      "confidence": 0.551308,
+      "bbox_xyxy": [
+        3.6399,
+        693.5522,
+        1159.6143,
+        1018.1536
+      ]
+    },
+    {
+      "class_id": 44,
+      "class_name": "spoon",
+      "confidence": 0.531094,
+      "bbox_xyxy": [
+        385.7311,
+        829.3171,
+        586.3305,
+        929.2133
+      ]
+    },
+    {
+      "class_id": 47,
+      "class_name": "apple",
+      "confidence": 0.442728,
+      "bbox_xyxy": [
+        0.2615,
+        638.6163,
+        70.3965,
+        703.6163
+      ]
+    },
+    {
+      "class_id": 75,
+      "class_name": "vase",
+      "confidence": 0.414453,
+      "bbox_xyxy": [
+        1467.1069,
+        383.288,
+        1535.0857,
+        433.1393
+      ]
+    },
+    {
+      "class_id": 47,
+      "class_name": "apple",
+      "confidence": 0.39833,
+      "bbox_xyxy": [
+        0.0,
+        618.212,
+        183.7348,
+        764.7006
+      ]
+    },
+    {
+      "class_id": 74,
+      "class_name": "clock",
+      "confidence": 0.392863,
+      "bbox_xyxy": [
+        1454.4198,
+        200.4442,
+        1508.5464,
+        264.3977
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6785 @@
+{
+  "source": "street_yolo.mp4",
+  "confidence_threshold": 0.7,
+  "class_counts": {
+    "traffic light": 380,
+    "car": 82,
+    "truck": 1,
+    "toilet": 48
+  },
+  "frames": [
+    {
+      "frame_number": 0,
+      "time_sec": 0.0,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.827987,
+          "bbox_xyxy": [
+            660.9365,
+            149.7087,
+            699.5295,
+            240.2348
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749455,
+          "bbox_xyxy": [
+            606.8149,
+            86.4305,
+            656.1696,
+            221.7803
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 1,
+      "time_sec": 0.0417,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.828725,
+          "bbox_xyxy": [
+            661.0514,
+            149.9268,
+            699.5492,
+            240.2661
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.751313,
+          "bbox_xyxy": [
+            606.8218,
+            86.4165,
+            656.1243,
+            221.6126
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 2,
+      "time_sec": 0.0833,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.830577,
+          "bbox_xyxy": [
+            661.0323,
+            149.9192,
+            699.5753,
+            240.2357
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.805419,
+          "bbox_xyxy": [
+            0.3808,
+            347.565,
+            176.1691,
+            511.8548
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749906,
+          "bbox_xyxy": [
+            606.8233,
+            86.4475,
+            656.1252,
+            221.6049
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 3,
+      "time_sec": 0.125,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.834295,
+          "bbox_xyxy": [
+            0.2509,
+            337.7442,
+            211.6473,
+            511.5674
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.829459,
+          "bbox_xyxy": [
+            661.0492,
+            149.92,
+            699.5944,
+            240.2151
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.752316,
+          "bbox_xyxy": [
+            606.8148,
+            86.3999,
+            656.0979,
+            221.4204
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 4,
+      "time_sec": 0.1667,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.829278,
+          "bbox_xyxy": [
+            661.0602,
+            149.9233,
+            699.5966,
+            240.2249
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.754644,
+          "bbox_xyxy": [
+            606.7759,
+            86.3939,
+            656.0662,
+            221.4331
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.714482,
+          "bbox_xyxy": [
+            0.2474,
+            335.4232,
+            268.3528,
+            526.3431
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 5,
+      "time_sec": 0.2083,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.823713,
+          "bbox_xyxy": [
+            661.1901,
+            149.9871,
+            699.5677,
+            240.1501
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749328,
+          "bbox_xyxy": [
+            606.8655,
+            86.4419,
+            656.1169,
+            221.541
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.737285,
+          "bbox_xyxy": [
+            0.0,
+            308.839,
+            318.6094,
+            509.3928
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 6,
+      "time_sec": 0.25,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.818416,
+          "bbox_xyxy": [
+            661.1617,
+            149.8995,
+            699.6653,
+            240.1418
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.780687,
+          "bbox_xyxy": [
+            0.0,
+            291.2625,
+            387.2639,
+            521.4453
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749419,
+          "bbox_xyxy": [
+            606.8207,
+            86.4449,
+            656.0954,
+            221.326
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 7,
+      "time_sec": 0.2917,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.819711,
+          "bbox_xyxy": [
+            661.2709,
+            149.9291,
+            699.6667,
+            240.1277
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.781153,
+          "bbox_xyxy": [
+            0.0439,
+            267.9154,
+            439.8569,
+            523.1765
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.748519,
+          "bbox_xyxy": [
+            606.7528,
+            86.4051,
+            656.088,
+            221.2191
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 8,
+      "time_sec": 0.3333,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.847498,
+          "bbox_xyxy": [
+            0.4568,
+            254.2659,
+            494.9725,
+            509.5724
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.818545,
+          "bbox_xyxy": [
+            661.4208,
+            149.9231,
+            699.6476,
+            240.0503
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.748116,
+          "bbox_xyxy": [
+            606.7303,
+            86.3811,
+            656.0862,
+            221.1978
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 9,
+      "time_sec": 0.375,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.818328,
+          "bbox_xyxy": [
+            0.0,
+            246.1191,
+            548.1969,
+            518.03
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.816344,
+          "bbox_xyxy": [
+            661.3467,
+            149.9138,
+            699.6425,
+            240.1772
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749533,
+          "bbox_xyxy": [
+            606.7979,
+            86.3038,
+            656.0652,
+            220.9879
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 10,
+      "time_sec": 0.4167,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.883018,
+          "bbox_xyxy": [
+            0.4516,
+            243.8994,
+            582.1434,
+            518.3304
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.821344,
+          "bbox_xyxy": [
+            661.3101,
+            150.0529,
+            699.5976,
+            240.1933
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.75689,
+          "bbox_xyxy": [
+            606.8242,
+            86.3021,
+            656.0752,
+            221.0338
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 11,
+      "time_sec": 0.4583,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.850527,
+          "bbox_xyxy": [
+            0.5413,
+            244.4338,
+            644.4819,
+            517.9393
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.814175,
+          "bbox_xyxy": [
+            661.3668,
+            150.0543,
+            699.6193,
+            240.2318
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.747343,
+          "bbox_xyxy": [
+            606.7937,
+            86.2724,
+            656.0928,
+            220.9496
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 12,
+      "time_sec": 0.5,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.863655,
+          "bbox_xyxy": [
+            0.6757,
+            242.4771,
+            703.0662,
+            522.7909
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.811734,
+          "bbox_xyxy": [
+            661.1307,
+            149.8804,
+            699.6659,
+            240.3445
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.752158,
+          "bbox_xyxy": [
+            606.8278,
+            86.2494,
+            656.0431,
+            220.9791
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 13,
+      "time_sec": 0.5417,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.850548,
+          "bbox_xyxy": [
+            1.2853,
+            242.4962,
+            746.6827,
+            518.1105
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.812743,
+          "bbox_xyxy": [
+            661.2344,
+            149.8146,
+            699.6551,
+            240.3387
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.751664,
+          "bbox_xyxy": [
+            606.9037,
+            86.5208,
+            655.1629,
+            221.4601
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 14,
+      "time_sec": 0.5833,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.869995,
+          "bbox_xyxy": [
+            4.0731,
+            250.2013,
+            787.6643,
+            525.7629
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.80745,
+          "bbox_xyxy": [
+            661.4062,
+            149.8546,
+            699.6805,
+            240.4501
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.761936,
+          "bbox_xyxy": [
+            606.9009,
+            86.5086,
+            655.186,
+            221.3512
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 15,
+      "time_sec": 0.625,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.849032,
+          "bbox_xyxy": [
+            1.8289,
+            253.1235,
+            831.3983,
+            532.2689
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.797816,
+          "bbox_xyxy": [
+            661.5217,
+            149.8464,
+            699.707,
+            240.3856
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.769592,
+          "bbox_xyxy": [
+            607.4167,
+            86.6786,
+            655.6427,
+            217.6661
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 16,
+      "time_sec": 0.6667,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.850548,
+          "bbox_xyxy": [
+            0.0,
+            255.874,
+            869.985,
+            524.3726
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.822341,
+          "bbox_xyxy": [
+            661.3628,
+            149.5711,
+            699.6633,
+            240.2175
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.774242,
+          "bbox_xyxy": [
+            606.8457,
+            86.4979,
+            655.1663,
+            220.7045
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 17,
+      "time_sec": 0.7083,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.889518,
+          "bbox_xyxy": [
+            2.155,
+            258.1025,
+            901.7817,
+            524.4297
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.832463,
+          "bbox_xyxy": [
+            661.1527,
+            149.5339,
+            699.6517,
+            240.44
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.785895,
+          "bbox_xyxy": [
+            606.97,
+            86.4661,
+            655.137,
+            220.7364
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 18,
+      "time_sec": 0.75,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.838943,
+          "bbox_xyxy": [
+            1.0823,
+            260.2477,
+            936.391,
+            523.1638
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.809801,
+          "bbox_xyxy": [
+            661.3199,
+            149.5,
+            699.7316,
+            240.3087
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.799204,
+          "bbox_xyxy": [
+            607.4537,
+            86.8979,
+            655.5946,
+            218.1236
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 19,
+      "time_sec": 0.7917,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.847728,
+          "bbox_xyxy": [
+            52.7512,
+            262.4192,
+            977.5707,
+            520.1139
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.811613,
+          "bbox_xyxy": [
+            661.1586,
+            149.3644,
+            699.7457,
+            240.3006
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.79416,
+          "bbox_xyxy": [
+            607.4585,
+            86.8335,
+            655.6577,
+            217.9118
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 20,
+      "time_sec": 0.8333,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.853503,
+          "bbox_xyxy": [
+            127.518,
+            265.6064,
+            984.0288,
+            519.2779
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.808534,
+          "bbox_xyxy": [
+            661.2184,
+            149.3372,
+            699.7473,
+            240.1232
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.79965,
+          "bbox_xyxy": [
+            607.3807,
+            86.8755,
+            655.5941,
+            217.7526
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 21,
+      "time_sec": 0.875,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.851597,
+          "bbox_xyxy": [
+            194.7968,
+            271.1594,
+            1016.2705,
+            515.4237
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.796788,
+          "bbox_xyxy": [
+            607.3909,
+            86.8991,
+            655.7378,
+            217.6398
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.795074,
+          "bbox_xyxy": [
+            661.6821,
+            149.6006,
+            699.7527,
+            240.0353
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 22,
+      "time_sec": 0.9167,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.807382,
+          "bbox_xyxy": [
+            250.8351,
+            274.9062,
+            1052.1652,
+            509.6538
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.792933,
+          "bbox_xyxy": [
+            661.5958,
+            149.5894,
+            699.8192,
+            239.7065
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.791866,
+          "bbox_xyxy": [
+            606.8771,
+            86.5084,
+            655.3289,
+            220.8632
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 23,
+      "time_sec": 0.9583,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.871435,
+          "bbox_xyxy": [
+            306.6326,
+            278.2358,
+            1074.1067,
+            511.0502
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.793578,
+          "bbox_xyxy": [
+            661.6727,
+            149.5989,
+            699.794,
+            239.9904
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.792151,
+          "bbox_xyxy": [
+            606.921,
+            86.6526,
+            655.2272,
+            220.0411
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 24,
+      "time_sec": 1.0,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.84755,
+          "bbox_xyxy": [
+            337.2223,
+            281.2208,
+            1093.3646,
+            508.5112
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.805922,
+          "bbox_xyxy": [
+            661.4706,
+            149.3681,
+            699.7164,
+            240.0031
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.77943,
+          "bbox_xyxy": [
+            606.8921,
+            86.4361,
+            655.2305,
+            220.2314
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 25,
+      "time_sec": 1.0417,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.849343,
+          "bbox_xyxy": [
+            409.3677,
+            287.1791,
+            1105.0471,
+            507.1739
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.789661,
+          "bbox_xyxy": [
+            661.2639,
+            149.3181,
+            699.7058,
+            240.0903
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.769729,
+          "bbox_xyxy": [
+            606.884,
+            86.3985,
+            655.1445,
+            220.3105
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 26,
+      "time_sec": 1.0833,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.834176,
+          "bbox_xyxy": [
+            440.5074,
+            288.0476,
+            1117.5283,
+            499.4027
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.809428,
+          "bbox_xyxy": [
+            661.1852,
+            149.362,
+            699.7445,
+            240.0738
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.775373,
+          "bbox_xyxy": [
+            606.8672,
+            86.3606,
+            655.207,
+            220.5155
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 27,
+      "time_sec": 1.125,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.866459,
+          "bbox_xyxy": [
+            502.5715,
+            292.7064,
+            1126.1685,
+            499.6471
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.790763,
+          "bbox_xyxy": [
+            661.181,
+            149.2455,
+            699.7843,
+            240.0179
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749306,
+          "bbox_xyxy": [
+            607.4668,
+            85.9995,
+            655.6462,
+            217.6997
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 28,
+      "time_sec": 1.1667,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.79204,
+          "bbox_xyxy": [
+            661.2396,
+            149.186,
+            699.7335,
+            240.0206
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.745869,
+          "bbox_xyxy": [
+            541.1415,
+            296.7379,
+            1133.4362,
+            483.4706
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.735057,
+          "bbox_xyxy": [
+            607.4736,
+            85.7647,
+            655.8224,
+            217.8809
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 29,
+      "time_sec": 1.2083,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.781737,
+          "bbox_xyxy": [
+            661.2585,
+            149.2092,
+            699.8605,
+            240.0628
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.744727,
+          "bbox_xyxy": [
+            583.3542,
+            299.9795,
+            1140.4033,
+            492.2449
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.739016,
+          "bbox_xyxy": [
+            607.4557,
+            85.5931,
+            655.808,
+            217.5427
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 30,
+      "time_sec": 1.25,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.777227,
+          "bbox_xyxy": [
+            661.1602,
+            149.0997,
+            699.7727,
+            240.0092
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.743794,
+          "bbox_xyxy": [
+            607.4155,
+            85.637,
+            655.8143,
+            217.4069
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 31,
+      "time_sec": 1.2917,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.761839,
+          "bbox_xyxy": [
+            661.5774,
+            149.183,
+            699.7805,
+            239.722
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.760529,
+          "bbox_xyxy": [
+            607.436,
+            85.3623,
+            655.8672,
+            217.1658
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 32,
+      "time_sec": 1.3333,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.774055,
+          "bbox_xyxy": [
+            662.0135,
+            147.7031,
+            699.8195,
+            239.6589
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.743163,
+          "bbox_xyxy": [
+            607.4385,
+            85.7142,
+            655.7699,
+            217.003
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.709169,
+          "bbox_xyxy": [
+            694.8094,
+            308.4297,
+            1043.5432,
+            484.704
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 33,
+      "time_sec": 1.375,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.783481,
+          "bbox_xyxy": [
+            661.9984,
+            147.8206,
+            699.7728,
+            239.3749
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.783243,
+          "bbox_xyxy": [
+            724.5701,
+            318.7134,
+            1055.094,
+            480.4728
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749637,
+          "bbox_xyxy": [
+            606.939,
+            85.9931,
+            655.2976,
+            220.927
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 34,
+      "time_sec": 1.4167,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.833767,
+          "bbox_xyxy": [
+            749.0459,
+            321.83,
+            1066.0588,
+            479.062
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.795866,
+          "bbox_xyxy": [
+            662.0103,
+            147.7507,
+            699.7928,
+            239.3159
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749561,
+          "bbox_xyxy": [
+            606.783,
+            85.7805,
+            656.2961,
+            220.0149
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 35,
+      "time_sec": 1.4583,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.804861,
+          "bbox_xyxy": [
+            662.1001,
+            147.9987,
+            699.7488,
+            239.1501
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749839,
+          "bbox_xyxy": [
+            606.829,
+            85.7784,
+            656.3145,
+            219.8494
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 36,
+      "time_sec": 1.5,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.795293,
+          "bbox_xyxy": [
+            661.9731,
+            147.9718,
+            699.7685,
+            239.1146
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.746141,
+          "bbox_xyxy": [
+            606.8446,
+            85.7006,
+            656.3472,
+            219.7132
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 37,
+      "time_sec": 1.5417,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.789252,
+          "bbox_xyxy": [
+            662.171,
+            148.0722,
+            699.7941,
+            239.0812
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749954,
+          "bbox_xyxy": [
+            606.7468,
+            85.6955,
+            656.283,
+            219.5013
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 38,
+      "time_sec": 1.5833,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.794316,
+          "bbox_xyxy": [
+            661.7922,
+            147.7853,
+            699.7898,
+            239.1023
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749583,
+          "bbox_xyxy": [
+            606.729,
+            85.5974,
+            656.3545,
+            219.4247
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 39,
+      "time_sec": 1.625,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.791011,
+          "bbox_xyxy": [
+            661.8114,
+            147.8772,
+            699.7926,
+            239.0704
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.753703,
+          "bbox_xyxy": [
+            606.7668,
+            85.5449,
+            656.3157,
+            219.1761
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 40,
+      "time_sec": 1.6667,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.784615,
+          "bbox_xyxy": [
+            661.5669,
+            147.4642,
+            699.7905,
+            238.9527
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749702,
+          "bbox_xyxy": [
+            606.7783,
+            85.3955,
+            656.3442,
+            219.4007
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 41,
+      "time_sec": 1.7083,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.77996,
+          "bbox_xyxy": [
+            661.4362,
+            147.3333,
+            699.7394,
+            238.9271
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.743538,
+          "bbox_xyxy": [
+            606.8843,
+            85.2393,
+            656.4341,
+            219.4111
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.741228,
+          "bbox_xyxy": [
+            866.0383,
+            336.1097,
+            1105.4484,
+            446.7689
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 42,
+      "time_sec": 1.75,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.780131,
+          "bbox_xyxy": [
+            875.1292,
+            338.4549,
+            1100.6411,
+            437.9064
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.771713,
+          "bbox_xyxy": [
+            661.4935,
+            146.916,
+            699.7832,
+            238.7766
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.74383,
+          "bbox_xyxy": [
+            606.835,
+            84.9962,
+            656.4924,
+            219.4042
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 43,
+      "time_sec": 1.7917,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.846431,
+          "bbox_xyxy": [
+            875.8256,
+            340.5989,
+            1100.6801,
+            455.5045
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.772416,
+          "bbox_xyxy": [
+            661.5298,
+            147.0249,
+            699.7983,
+            238.7122
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.740263,
+          "bbox_xyxy": [
+            606.813,
+            85.0497,
+            656.5215,
+            219.4986
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 44,
+      "time_sec": 1.8333,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.829555,
+          "bbox_xyxy": [
+            878.4641,
+            342.2721,
+            1100.0135,
+            453.7294
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.827556,
+          "bbox_xyxy": [
+            0.1339,
+            327.5633,
+            199.1477,
+            530.9879
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.770326,
+          "bbox_xyxy": [
+            661.4404,
+            146.782,
+            699.8193,
+            238.8777
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.738488,
+          "bbox_xyxy": [
+            606.8141,
+            84.933,
+            656.5404,
+            219.4532
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 45,
+      "time_sec": 1.875,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.801118,
+          "bbox_xyxy": [
+            879.3151,
+            344.9773,
+            1097.9633,
+            455.9348
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.774616,
+          "bbox_xyxy": [
+            661.3533,
+            146.2836,
+            699.8362,
+            238.8502
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.746122,
+          "bbox_xyxy": [
+            606.723,
+            84.675,
+            656.6112,
+            219.3378
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.735761,
+          "bbox_xyxy": [
+            0.6697,
+            246.4217,
+            246.042,
+            528.7366
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 46,
+      "time_sec": 1.9167,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.773491,
+          "bbox_xyxy": [
+            880.7964,
+            345.8553,
+            1095.0474,
+            454.4883
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.766099,
+          "bbox_xyxy": [
+            661.3364,
+            146.3863,
+            699.8877,
+            238.8398
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.73885,
+          "bbox_xyxy": [
+            606.5805,
+            84.4934,
+            656.6229,
+            219.4609
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 47,
+      "time_sec": 1.9583,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.799947,
+          "bbox_xyxy": [
+            871.9622,
+            346.779,
+            1084.418,
+            454.5351
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.795123,
+          "bbox_xyxy": [
+            0.3226,
+            228.4728,
+            367.5399,
+            524.5006
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.763407,
+          "bbox_xyxy": [
+            661.3254,
+            146.3178,
+            699.9326,
+            238.8377
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.742878,
+          "bbox_xyxy": [
+            606.5027,
+            84.3305,
+            656.6506,
+            219.3546
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 48,
+      "time_sec": 2.0,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.87558,
+          "bbox_xyxy": [
+            0.6087,
+            229.7487,
+            409.7148,
+            521.266
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.756646,
+          "bbox_xyxy": [
+            661.3112,
+            146.42,
+            700.0382,
+            238.8189
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.750358,
+          "bbox_xyxy": [
+            606.6091,
+            84.1354,
+            656.7483,
+            219.3046
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 49,
+      "time_sec": 2.0417,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.922996,
+          "bbox_xyxy": [
+            0.7775,
+            227.2621,
+            459.5494,
+            517.9613
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.748813,
+          "bbox_xyxy": [
+            661.157,
+            145.9253,
+            700.1235,
+            238.7928
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.747241,
+          "bbox_xyxy": [
+            606.5958,
+            83.8089,
+            656.7277,
+            219.0751
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 50,
+      "time_sec": 2.0833,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.927957,
+          "bbox_xyxy": [
+            0.2159,
+            227.6647,
+            532.0238,
+            520.4859
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.750959,
+          "bbox_xyxy": [
+            661.0563,
+            146.535,
+            700.0768,
+            238.3454
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.738784,
+          "bbox_xyxy": [
+            857.2943,
+            351.6427,
+            1062.8373,
+            449.8956
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.73644,
+          "bbox_xyxy": [
+            607.295,
+            83.6013,
+            656.1952,
+            215.9913
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 51,
+      "time_sec": 2.125,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.908511,
+          "bbox_xyxy": [
+            0.0,
+            229.9915,
+            577.2526,
+            527.8162
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.827151,
+          "bbox_xyxy": [
+            852.5438,
+            353.4868,
+            1056.0289,
+            450.4139
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.755104,
+          "bbox_xyxy": [
+            661.1476,
+            146.4664,
+            700.1366,
+            238.3725
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.7537,
+          "bbox_xyxy": [
+            607.259,
+            83.3699,
+            656.1074,
+            215.7574
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 52,
+      "time_sec": 2.1667,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.936347,
+          "bbox_xyxy": [
+            0.6086,
+            233.2999,
+            643.4496,
+            531.2487
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.78715,
+          "bbox_xyxy": [
+            857.1093,
+            356.1468,
+            1048.5079,
+            449.1978
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.766319,
+          "bbox_xyxy": [
+            607.1907,
+            83.0869,
+            656.1489,
+            215.776
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.753065,
+          "bbox_xyxy": [
+            661.126,
+            146.1961,
+            700.1763,
+            238.3798
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 53,
+      "time_sec": 2.2083,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.92911,
+          "bbox_xyxy": [
+            28.7632,
+            234.4121,
+            708.7346,
+            526.9958
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.796067,
+          "bbox_xyxy": [
+            848.0753,
+            357.4263,
+            1038.8159,
+            447.7879
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.775819,
+          "bbox_xyxy": [
+            607.1168,
+            82.9633,
+            656.0111,
+            215.5911
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.757141,
+          "bbox_xyxy": [
+            661.1437,
+            146.0078,
+            700.2314,
+            238.3344
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 54,
+      "time_sec": 2.25,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.904136,
+          "bbox_xyxy": [
+            94.3544,
+            236.3491,
+            765.0779,
+            524.3732
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.797047,
+          "bbox_xyxy": [
+            845.6356,
+            357.4252,
+            1032.197,
+            447.0572
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.790771,
+          "bbox_xyxy": [
+            607.0139,
+            82.6612,
+            655.9037,
+            215.5986
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.730758,
+          "bbox_xyxy": [
+            661.5027,
+            145.8929,
+            700.2783,
+            238.1744
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 55,
+      "time_sec": 2.2917,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.948459,
+          "bbox_xyxy": [
+            174.283,
+            237.7556,
+            818.1752,
+            519.3304
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.783285,
+          "bbox_xyxy": [
+            606.8491,
+            82.7177,
+            656.0386,
+            215.9903
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.777968,
+          "bbox_xyxy": [
+            837.5954,
+            358.6699,
+            1018.1389,
+            442.0002
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.758185,
+          "bbox_xyxy": [
+            661.571,
+            145.6838,
+            700.4939,
+            237.8589
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 56,
+      "time_sec": 2.3333,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.928195,
+          "bbox_xyxy": [
+            227.7352,
+            240.2224,
+            869.4613,
+            518.9968
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.78453,
+          "bbox_xyxy": [
+            863.929,
+            359.8123,
+            1013.0403,
+            444.9133
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.777573,
+          "bbox_xyxy": [
+            606.4749,
+            81.8015,
+            655.6838,
+            215.9404
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.771012,
+          "bbox_xyxy": [
+            661.517,
+            145.5461,
+            700.4154,
+            238.3079
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 57,
+      "time_sec": 2.375,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.926819,
+          "bbox_xyxy": [
+            289.728,
+            240.5276,
+            918.7373,
+            518.4713
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.781693,
+          "bbox_xyxy": [
+            662.7576,
+            145.6794,
+            700.5278,
+            238.4143
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.767179,
+          "bbox_xyxy": [
+            606.8212,
+            81.6504,
+            655.5908,
+            215.2721
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 58,
+      "time_sec": 2.4167,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.934564,
+          "bbox_xyxy": [
+            350.5897,
+            244.2604,
+            983.2921,
+            517.5719
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.785749,
+          "bbox_xyxy": [
+            662.4189,
+            145.4858,
+            700.6143,
+            237.9037
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.773261,
+          "bbox_xyxy": [
+            607.4152,
+            81.7754,
+            655.7982,
+            214.2168
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 59,
+      "time_sec": 2.4583,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.902917,
+          "bbox_xyxy": [
+            411.2003,
+            246.8658,
+            1009.2748,
+            515.608
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.79683,
+          "bbox_xyxy": [
+            607.3137,
+            81.128,
+            655.9297,
+            214.3779
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.772584,
+          "bbox_xyxy": [
+            662.3359,
+            145.3164,
+            700.7456,
+            238.6012
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 60,
+      "time_sec": 2.5,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.928544,
+          "bbox_xyxy": [
+            464.5005,
+            248.8863,
+            1056.2201,
+            515.1743
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.777874,
+          "bbox_xyxy": [
+            606.821,
+            80.4493,
+            655.6221,
+            215.4502
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.753769,
+          "bbox_xyxy": [
+            661.5616,
+            145.2441,
+            700.6207,
+            237.8581
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 61,
+      "time_sec": 2.5417,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.891684,
+          "bbox_xyxy": [
+            527.8696,
+            253.1021,
+            1099.364,
+            514.5873
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.755003,
+          "bbox_xyxy": [
+            606.6154,
+            80.2401,
+            656.5983,
+            216.3979
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.745436,
+          "bbox_xyxy": [
+            661.1797,
+            144.4827,
+            700.9415,
+            236.5685
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 62,
+      "time_sec": 2.5833,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.902721,
+          "bbox_xyxy": [
+            580.6201,
+            252.5767,
+            1139.5208,
+            512.8404
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.756334,
+          "bbox_xyxy": [
+            607.2469,
+            81.7803,
+            656.0431,
+            213.9638
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.732103,
+          "bbox_xyxy": [
+            661.2267,
+            144.196,
+            700.8698,
+            236.7629
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 63,
+      "time_sec": 2.625,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.888358,
+          "bbox_xyxy": [
+            625.7838,
+            257.6949,
+            1181.2932,
+            510.2704
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.751983,
+          "bbox_xyxy": [
+            606.6641,
+            79.5691,
+            656.5884,
+            215.7528
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.733229,
+          "bbox_xyxy": [
+            661.675,
+            144.243,
+            700.9839,
+            236.2127
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 64,
+      "time_sec": 2.6667,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.901261,
+          "bbox_xyxy": [
+            672.837,
+            261.6888,
+            1218.6902,
+            509.5301
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.757583,
+          "bbox_xyxy": [
+            606.5061,
+            79.3163,
+            656.7488,
+            215.6948
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.719465,
+          "bbox_xyxy": [
+            662.0927,
+            143.9278,
+            701.2181,
+            235.58
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 65,
+      "time_sec": 2.7083,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.914889,
+          "bbox_xyxy": [
+            720.395,
+            265.847,
+            1253.5596,
+            504.9218
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.753298,
+          "bbox_xyxy": [
+            606.5826,
+            79.1826,
+            656.8292,
+            215.5815
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.703944,
+          "bbox_xyxy": [
+            662.1586,
+            143.669,
+            701.259,
+            235.333
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 66,
+      "time_sec": 2.75,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.907536,
+          "bbox_xyxy": [
+            765.9806,
+            270.8339,
+            1279.5148,
+            503.2345
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.752182,
+          "bbox_xyxy": [
+            606.569,
+            78.976,
+            656.777,
+            215.3913
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 67,
+      "time_sec": 2.7917,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.874907,
+          "bbox_xyxy": [
+            803.6856,
+            271.1142,
+            1278.5356,
+            499.9556
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.755213,
+          "bbox_xyxy": [
+            606.5444,
+            78.7525,
+            656.8525,
+            214.969
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.703399,
+          "bbox_xyxy": [
+            661.8311,
+            143.0248,
+            701.3394,
+            234.5556
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 68,
+      "time_sec": 2.8333,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.85031,
+          "bbox_xyxy": [
+            869.333,
+            269.8011,
+            1278.855,
+            496.9306
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.754411,
+          "bbox_xyxy": [
+            606.5762,
+            78.6295,
+            656.769,
+            214.3656
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 69,
+      "time_sec": 2.875,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.825509,
+          "bbox_xyxy": [
+            906.5779,
+            272.0815,
+            1279.4102,
+            493.8913
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.751995,
+          "bbox_xyxy": [
+            606.6451,
+            78.4186,
+            656.7675,
+            214.2817
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 70,
+      "time_sec": 2.9167,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.812863,
+          "bbox_xyxy": [
+            947.5439,
+            274.5283,
+            1279.6228,
+            495.2922
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.750132,
+          "bbox_xyxy": [
+            606.5906,
+            78.1578,
+            656.832,
+            213.8305
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.724969,
+          "bbox_xyxy": [
+            766.2006,
+            375.4559,
+            872.3009,
+            435.1157
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 71,
+      "time_sec": 2.9583,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.818298,
+          "bbox_xyxy": [
+            987.3775,
+            278.8676,
+            1279.5981,
+            488.7907
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.753711,
+          "bbox_xyxy": [
+            772.9421,
+            376.3717,
+            867.863,
+            433.4938
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.752024,
+          "bbox_xyxy": [
+            606.597,
+            77.9093,
+            657.0058,
+            213.7202
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 72,
+      "time_sec": 3.0,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.746125,
+          "bbox_xyxy": [
+            606.5901,
+            77.8546,
+            657.1651,
+            213.5018
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.735633,
+          "bbox_xyxy": [
+            1025.5756,
+            280.1572,
+            1279.4711,
+            487.3127
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.705196,
+          "bbox_xyxy": [
+            748.8773,
+            374.3323,
+            868.0135,
+            433.2111
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.704307,
+          "bbox_xyxy": [
+            661.4457,
+            140.8954,
+            702.0118,
+            232.9057
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 73,
+      "time_sec": 3.0417,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.810791,
+          "bbox_xyxy": [
+            1057.7793,
+            280.1868,
+            1279.6042,
+            485.7603
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.747045,
+          "bbox_xyxy": [
+            606.6539,
+            77.8086,
+            657.1337,
+            213.3392
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.71168,
+          "bbox_xyxy": [
+            661.4716,
+            140.6503,
+            702.049,
+            232.6371
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 74,
+      "time_sec": 3.0833,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.819616,
+          "bbox_xyxy": [
+            1099.8042,
+            285.5534,
+            1279.498,
+            483.8568
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.747209,
+          "bbox_xyxy": [
+            606.7153,
+            77.5986,
+            656.9801,
+            212.9758
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.708701,
+          "bbox_xyxy": [
+            661.4753,
+            140.4484,
+            702.1174,
+            232.4828
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.702917,
+          "bbox_xyxy": [
+            756.1595,
+            376.5237,
+            851.2521,
+            431.19
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 75,
+      "time_sec": 3.125,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.853923,
+          "bbox_xyxy": [
+            1132.0698,
+            289.2143,
+            1279.4009,
+            479.9422
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.743208,
+          "bbox_xyxy": [
+            606.7446,
+            77.5927,
+            656.913,
+            212.8404
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.703691,
+          "bbox_xyxy": [
+            661.4344,
+            140.0161,
+            702.2463,
+            232.3474
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 76,
+      "time_sec": 3.1667,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.821013,
+          "bbox_xyxy": [
+            1160.2468,
+            290.2618,
+            1279.3923,
+            476.0645
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.738244,
+          "bbox_xyxy": [
+            606.7218,
+            77.3292,
+            656.8046,
+            212.5839
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.707638,
+          "bbox_xyxy": [
+            661.336,
+            139.981,
+            702.2619,
+            232.2953
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 77,
+      "time_sec": 3.2083,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.741073,
+          "bbox_xyxy": [
+            606.6863,
+            77.0414,
+            656.785,
+            212.5204
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.709403,
+          "bbox_xyxy": [
+            661.2419,
+            139.8193,
+            702.3685,
+            232.1476
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 78,
+      "time_sec": 3.25,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.739615,
+          "bbox_xyxy": [
+            606.5875,
+            76.7149,
+            656.6603,
+            212.2198
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.706103,
+          "bbox_xyxy": [
+            661.2705,
+            139.6144,
+            702.4133,
+            232.0519
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 79,
+      "time_sec": 3.2917,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.740864,
+          "bbox_xyxy": [
+            606.5707,
+            76.3759,
+            656.7645,
+            212.1697
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 80,
+      "time_sec": 3.3333,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.74084,
+          "bbox_xyxy": [
+            606.594,
+            76.1665,
+            656.6725,
+            212.0371
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 81,
+      "time_sec": 3.375,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.739883,
+          "bbox_xyxy": [
+            606.6432,
+            75.7352,
+            656.5862,
+            211.7369
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 82,
+      "time_sec": 3.4167,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.743262,
+          "bbox_xyxy": [
+            606.7003,
+            75.221,
+            656.5348,
+            211.4133
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 83,
+      "time_sec": 3.4583,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.742353,
+          "bbox_xyxy": [
+            606.7648,
+            74.7336,
+            656.5998,
+            210.8569
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.702127,
+          "bbox_xyxy": [
+            662.7343,
+            138.5925,
+            702.7303,
+            230.9296
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 84,
+      "time_sec": 3.5,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.741788,
+          "bbox_xyxy": [
+            606.7716,
+            74.2029,
+            656.563,
+            210.795
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.705396,
+          "bbox_xyxy": [
+            662.9725,
+            138.1889,
+            702.7645,
+            230.6443
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 85,
+      "time_sec": 3.5417,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.738937,
+          "bbox_xyxy": [
+            606.7945,
+            73.8031,
+            656.7079,
+            210.8698
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.703676,
+          "bbox_xyxy": [
+            663.0826,
+            137.935,
+            702.7681,
+            230.4904
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 86,
+      "time_sec": 3.5833,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.738412,
+          "bbox_xyxy": [
+            606.7468,
+            73.5326,
+            656.7759,
+            210.618
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.705242,
+          "bbox_xyxy": [
+            664.8445,
+            137.8418,
+            702.6765,
+            229.4539
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 87,
+      "time_sec": 3.625,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.739518,
+          "bbox_xyxy": [
+            606.7787,
+            72.9465,
+            656.7845,
+            210.4577
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.704955,
+          "bbox_xyxy": [
+            664.7585,
+            137.355,
+            702.8822,
+            229.1063
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 88,
+      "time_sec": 3.6667,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.732796,
+          "bbox_xyxy": [
+            606.7529,
+            72.4859,
+            656.6533,
+            210.306
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.720345,
+          "bbox_xyxy": [
+            664.5323,
+            137.1272,
+            702.6981,
+            229.0686
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 89,
+      "time_sec": 3.7083,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.734784,
+          "bbox_xyxy": [
+            606.7734,
+            72.0052,
+            656.6875,
+            209.8527
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.727114,
+          "bbox_xyxy": [
+            664.2386,
+            137.0717,
+            702.6818,
+            229.041
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 90,
+      "time_sec": 3.75,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.739814,
+          "bbox_xyxy": [
+            606.776,
+            71.8097,
+            656.621,
+            209.3424
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.739291,
+          "bbox_xyxy": [
+            664.0183,
+            136.8851,
+            702.543,
+            229.1097
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 91,
+      "time_sec": 3.7917,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749154,
+          "bbox_xyxy": [
+            606.8363,
+            71.8467,
+            656.6588,
+            208.7151
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.746602,
+          "bbox_xyxy": [
+            663.2382,
+            136.2374,
+            702.8092,
+            229.2324
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 92,
+      "time_sec": 3.8333,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.754047,
+          "bbox_xyxy": [
+            606.9093,
+            71.6276,
+            656.6278,
+            208.131
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.746696,
+          "bbox_xyxy": [
+            663.1898,
+            136.1971,
+            702.9447,
+            228.9699
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 93,
+      "time_sec": 3.875,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.753405,
+          "bbox_xyxy": [
+            606.9547,
+            71.276,
+            656.808,
+            208.0738
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.752816,
+          "bbox_xyxy": [
+            662.9614,
+            135.9509,
+            703.0692,
+            228.7473
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 94,
+      "time_sec": 3.9167,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.757608,
+          "bbox_xyxy": [
+            606.9382,
+            70.8663,
+            656.7795,
+            207.5929
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.755517,
+          "bbox_xyxy": [
+            662.6712,
+            135.6092,
+            703.1248,
+            228.5429
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 95,
+      "time_sec": 3.9583,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.761576,
+          "bbox_xyxy": [
+            606.8892,
+            70.6841,
+            656.7358,
+            207.1186
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.756964,
+          "bbox_xyxy": [
+            662.6605,
+            135.401,
+            703.2164,
+            228.5356
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 96,
+      "time_sec": 4.0,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.762496,
+          "bbox_xyxy": [
+            606.8778,
+            70.6151,
+            656.6927,
+            207.0282
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.754273,
+          "bbox_xyxy": [
+            662.6227,
+            134.8284,
+            703.3585,
+            228.5059
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 97,
+      "time_sec": 4.0417,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.763761,
+          "bbox_xyxy": [
+            606.8243,
+            70.4919,
+            656.7301,
+            206.8565
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.756617,
+          "bbox_xyxy": [
+            663.3544,
+            135.4861,
+            702.8005,
+            229.0188
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 98,
+      "time_sec": 4.0833,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.760283,
+          "bbox_xyxy": [
+            663.2877,
+            135.245,
+            702.8292,
+            228.9403
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.756891,
+          "bbox_xyxy": [
+            606.7334,
+            70.4128,
+            656.8445,
+            206.6494
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 99,
+      "time_sec": 4.125,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.764398,
+          "bbox_xyxy": [
+            663.3011,
+            135.0594,
+            702.8508,
+            228.9932
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.752917,
+          "bbox_xyxy": [
+            606.7503,
+            70.3285,
+            656.9547,
+            206.1513
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 100,
+      "time_sec": 4.1667,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.77182,
+          "bbox_xyxy": [
+            662.8828,
+            134.8728,
+            702.8145,
+            228.9753
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.750284,
+          "bbox_xyxy": [
+            606.6626,
+            70.1051,
+            657.0044,
+            205.9081
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 101,
+      "time_sec": 4.2083,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.783471,
+          "bbox_xyxy": [
+            662.5708,
+            134.6406,
+            702.9053,
+            228.8772
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.760403,
+          "bbox_xyxy": [
+            606.6173,
+            69.7799,
+            657.1034,
+            205.6621
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 102,
+      "time_sec": 4.25,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.781528,
+          "bbox_xyxy": [
+            662.4188,
+            134.3617,
+            703.0685,
+            228.9187
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.755278,
+          "bbox_xyxy": [
+            606.6643,
+            69.5569,
+            657.1785,
+            205.6359
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 103,
+      "time_sec": 4.2917,
+      "detections": [
+        {
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.790898,
+          "bbox_xyxy": [
+            0.1678,
+            136.2422,
+            379.8049,
+            630.8713
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.782308,
+          "bbox_xyxy": [
+            662.5383,
+            134.1949,
+            703.1227,
+            228.8731
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.756956,
+          "bbox_xyxy": [
+            606.6108,
+            69.3895,
+            657.3648,
+            205.6177
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "car",
+          "confidence": 0.701912,
+          "bbox_xyxy": [
+            664.7651,
+            379.9539,
+            725.2101,
+            424.437
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 104,
+      "time_sec": 4.3333,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.789547,
+          "bbox_xyxy": [
+            662.308,
+            133.8606,
+            703.3877,
+            228.84
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.757179,
+          "bbox_xyxy": [
+            606.4815,
+            69.296,
+            657.3011,
+            205.6609
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 105,
+      "time_sec": 4.375,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.796547,
+          "bbox_xyxy": [
+            661.943,
+            133.5802,
+            703.5538,
+            228.755
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.757862,
+          "bbox_xyxy": [
+            606.3677,
+            68.739,
+            657.2945,
+            205.4835
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 106,
+      "time_sec": 4.4167,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.797625,
+          "bbox_xyxy": [
+            661.7823,
+            133.2774,
+            703.5884,
+            228.7819
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.755453,
+          "bbox_xyxy": [
+            606.2524,
+            68.1569,
+            657.3237,
+            205.5988
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 107,
+      "time_sec": 4.4583,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.793076,
+          "bbox_xyxy": [
+            661.7806,
+            132.9022,
+            703.6534,
+            228.8853
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.756688,
+          "bbox_xyxy": [
+            605.3039,
+            66.9879,
+            657.9606,
+            206.4672
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 108,
+      "time_sec": 4.5,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.804302,
+          "bbox_xyxy": [
+            661.771,
+            132.2381,
+            703.6121,
+            229.0962
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.761986,
+          "bbox_xyxy": [
+            605.2579,
+            66.4793,
+            657.9799,
+            206.4241
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 109,
+      "time_sec": 4.5417,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.805151,
+          "bbox_xyxy": [
+            661.8335,
+            131.8976,
+            703.7036,
+            229.1858
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.767381,
+          "bbox_xyxy": [
+            605.0935,
+            65.9852,
+            658.0181,
+            206.3488
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 110,
+      "time_sec": 4.5833,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.802272,
+          "bbox_xyxy": [
+            661.7654,
+            131.3986,
+            703.7612,
+            229.1752
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.772303,
+          "bbox_xyxy": [
+            605.0088,
+            65.6616,
+            658.085,
+            206.3551
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 111,
+      "time_sec": 4.625,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.794661,
+          "bbox_xyxy": [
+            661.7406,
+            131.1632,
+            703.868,
+            228.9749
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.772078,
+          "bbox_xyxy": [
+            604.9487,
+            65.4861,
+            658.1018,
+            206.7579
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 112,
+      "time_sec": 4.6667,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.798528,
+          "bbox_xyxy": [
+            661.6774,
+            130.7419,
+            703.9751,
+            228.758
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.776725,
+          "bbox_xyxy": [
+            604.9115,
+            64.9124,
+            658.2399,
+            207.816
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 113,
+      "time_sec": 4.7083,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.799478,
+          "bbox_xyxy": [
+            661.7914,
+            130.4438,
+            703.9891,
+            228.6075
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.77691,
+          "bbox_xyxy": [
+            604.8789,
+            64.6127,
+            658.3425,
+            208.4841
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 114,
+      "time_sec": 4.75,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.798727,
+          "bbox_xyxy": [
+            661.8351,
+            130.1224,
+            704.1417,
+            228.5823
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.777807,
+          "bbox_xyxy": [
+            139.1534,
+            120.8386,
+            603.7845,
+            644.1989
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.775155,
+          "bbox_xyxy": [
+            604.8911,
+            64.0889,
+            658.3843,
+            209.0135
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 115,
+      "time_sec": 4.7917,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.799615,
+          "bbox_xyxy": [
+            661.6179,
+            129.3084,
+            704.1113,
+            228.517
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.774605,
+          "bbox_xyxy": [
+            604.9493,
+            63.8237,
+            658.3936,
+            209.2209
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 116,
+      "time_sec": 4.8333,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.798554,
+          "bbox_xyxy": [
+            661.7264,
+            128.9715,
+            704.2018,
+            228.424
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.774713,
+          "bbox_xyxy": [
+            604.844,
+            63.6769,
+            658.3511,
+            209.2517
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 117,
+      "time_sec": 4.875,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.803465,
+          "bbox_xyxy": [
+            662.1277,
+            128.8539,
+            704.3391,
+            228.285
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.7834,
+          "bbox_xyxy": [
+            604.8367,
+            63.2962,
+            658.3693,
+            208.2909
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.715374,
+          "bbox_xyxy": [
+            173.7203,
+            117.6442,
+            649.0356,
+            650.5648
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 118,
+      "time_sec": 4.9167,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.808744,
+          "bbox_xyxy": [
+            662.295,
+            128.5921,
+            704.3651,
+            228.3213
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.784685,
+          "bbox_xyxy": [
+            604.7223,
+            62.7593,
+            658.3339,
+            208.2549
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 119,
+      "time_sec": 4.9583,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.812743,
+          "bbox_xyxy": [
+            662.5482,
+            128.4052,
+            704.4608,
+            228.3785
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.780517,
+          "bbox_xyxy": [
+            604.6804,
+            62.4192,
+            658.3005,
+            207.794
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 120,
+      "time_sec": 5.0,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.810363,
+          "bbox_xyxy": [
+            662.5876,
+            128.3167,
+            704.4456,
+            228.4838
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.768498,
+          "bbox_xyxy": [
+            604.505,
+            61.9847,
+            658.1945,
+            207.4256
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.755219,
+          "bbox_xyxy": [
+            195.853,
+            116.1653,
+            667.6585,
+            652.9736
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 121,
+      "time_sec": 5.0417,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.810083,
+          "bbox_xyxy": [
+            662.6458,
+            128.2243,
+            704.566,
+            228.3526
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.770343,
+          "bbox_xyxy": [
+            604.4955,
+            61.6768,
+            658.2958,
+            207.8515
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.757701,
+          "bbox_xyxy": [
+            199.1144,
+            115.3156,
+            674.6927,
+            655.9772
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 122,
+      "time_sec": 5.0833,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.810912,
+          "bbox_xyxy": [
+            662.5745,
+            128.1572,
+            704.696,
+            228.2872
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.779363,
+          "bbox_xyxy": [
+            204.7425,
+            113.8489,
+            682.715,
+            659.2734
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.769395,
+          "bbox_xyxy": [
+            604.4197,
+            61.4719,
+            658.2917,
+            208.0388
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 123,
+      "time_sec": 5.125,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.816331,
+          "bbox_xyxy": [
+            662.6313,
+            128.1945,
+            704.877,
+            228.1147
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.780003,
+          "bbox_xyxy": [
+            207.0353,
+            112.2003,
+            682.6367,
+            659.6631
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.778442,
+          "bbox_xyxy": [
+            604.4656,
+            61.254,
+            658.5044,
+            208.19
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 124,
+      "time_sec": 5.1667,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.817293,
+          "bbox_xyxy": [
+            662.5168,
+            128.0909,
+            705.024,
+            228.1387
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.775511,
+          "bbox_xyxy": [
+            604.4199,
+            61.0937,
+            658.5292,
+            208.0815
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.723836,
+          "bbox_xyxy": [
+            209.6724,
+            111.0012,
+            681.7942,
+            661.1442
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 125,
+      "time_sec": 5.2083,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.815989,
+          "bbox_xyxy": [
+            662.4631,
+            127.9778,
+            705.1769,
+            228.1138
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.782937,
+          "bbox_xyxy": [
+            209.585,
+            111.1866,
+            680.3528,
+            661.1373
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.774394,
+          "bbox_xyxy": [
+            604.4136,
+            60.9172,
+            658.5249,
+            208.0774
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 126,
+      "time_sec": 5.25,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.822174,
+          "bbox_xyxy": [
+            662.2802,
+            127.9359,
+            705.294,
+            227.8329
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.817513,
+          "bbox_xyxy": [
+            202.3567,
+            114.7592,
+            682.0778,
+            652.3467
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.763294,
+          "bbox_xyxy": [
+            604.3477,
+            60.5683,
+            658.5232,
+            207.6727
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 127,
+      "time_sec": 5.2917,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.829098,
+          "bbox_xyxy": [
+            662.1959,
+            128.0122,
+            705.5587,
+            227.7574
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.760786,
+          "bbox_xyxy": [
+            604.4152,
+            60.3262,
+            658.6916,
+            208.2551
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 128,
+      "time_sec": 5.3333,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.82374,
+          "bbox_xyxy": [
+            662.655,
+            127.8782,
+            705.908,
+            227.5591
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.762934,
+          "bbox_xyxy": [
+            604.3885,
+            60.014,
+            658.2671,
+            207.292
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 129,
+      "time_sec": 5.375,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.822928,
+          "bbox_xyxy": [
+            662.536,
+            127.5872,
+            705.9972,
+            227.5635
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.777793,
+          "bbox_xyxy": [
+            604.1428,
+            59.7643,
+            658.2966,
+            206.963
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 130,
+      "time_sec": 5.4167,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.811218,
+          "bbox_xyxy": [
+            662.7601,
+            127.3481,
+            706.0807,
+            227.3289
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.776333,
+          "bbox_xyxy": [
+            604.0337,
+            59.7616,
+            658.317,
+            207.6477
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 131,
+      "time_sec": 5.4583,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.805419,
+          "bbox_xyxy": [
+            662.8301,
+            127.0506,
+            706.1775,
+            227.1089
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.787887,
+          "bbox_xyxy": [
+            603.9443,
+            59.7423,
+            658.3513,
+            207.3715
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 132,
+      "time_sec": 5.5,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.801224,
+          "bbox_xyxy": [
+            663.0936,
+            126.8233,
+            706.2054,
+            226.8337
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.792963,
+          "bbox_xyxy": [
+            603.974,
+            59.713,
+            658.2814,
+            206.669
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 133,
+      "time_sec": 5.5417,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.805108,
+          "bbox_xyxy": [
+            662.7846,
+            126.6255,
+            706.2656,
+            226.622
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.795823,
+          "bbox_xyxy": [
+            603.9814,
+            59.587,
+            658.2693,
+            206.4285
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 134,
+      "time_sec": 5.5833,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.805564,
+          "bbox_xyxy": [
+            662.7402,
+            126.4665,
+            706.3066,
+            226.4042
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.796957,
+          "bbox_xyxy": [
+            603.9542,
+            59.3364,
+            658.2758,
+            206.3535
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 135,
+      "time_sec": 5.625,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.803765,
+          "bbox_xyxy": [
+            662.6714,
+            126.4429,
+            706.2703,
+            226.24
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.788409,
+          "bbox_xyxy": [
+            604.0052,
+            58.979,
+            658.3271,
+            206.7614
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 136,
+      "time_sec": 5.6667,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.810803,
+          "bbox_xyxy": [
+            661.9299,
+            126.0466,
+            706.2879,
+            226.4602
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.779175,
+          "bbox_xyxy": [
+            603.9682,
+            58.5425,
+            658.2249,
+            206.3984
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 137,
+      "time_sec": 5.7083,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.806148,
+          "bbox_xyxy": [
+            661.9495,
+            125.5617,
+            706.1966,
+            226.5529
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.773237,
+          "bbox_xyxy": [
+            604.079,
+            58.2178,
+            658.1985,
+            205.2237
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 138,
+      "time_sec": 5.75,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.805744,
+          "bbox_xyxy": [
+            661.7529,
+            125.4292,
+            706.1733,
+            226.3992
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.769434,
+          "bbox_xyxy": [
+            604.1456,
+            58.0461,
+            658.1602,
+            204.7455
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 139,
+      "time_sec": 5.7917,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.806257,
+          "bbox_xyxy": [
+            661.7878,
+            125.4462,
+            706.2346,
+            226.4874
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.763049,
+          "bbox_xyxy": [
+            604.2046,
+            57.8667,
+            658.177,
+            204.2971
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 140,
+      "time_sec": 5.8333,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.802616,
+          "bbox_xyxy": [
+            661.7433,
+            125.1816,
+            706.2789,
+            226.2787
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.769619,
+          "bbox_xyxy": [
+            604.2675,
+            57.7184,
+            658.0285,
+            204.0735
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 141,
+      "time_sec": 5.875,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.801054,
+          "bbox_xyxy": [
+            661.9818,
+            125.305,
+            706.2186,
+            226.3236
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.767803,
+          "bbox_xyxy": [
+            604.3084,
+            57.6204,
+            657.9301,
+            203.8733
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 142,
+      "time_sec": 5.9167,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.807785,
+          "bbox_xyxy": [
+            661.939,
+            125.1434,
+            706.2089,
+            226.3788
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.762842,
+          "bbox_xyxy": [
+            604.3697,
+            57.3807,
+            657.8459,
+            203.6445
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 143,
+      "time_sec": 5.9583,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.804019,
+          "bbox_xyxy": [
+            661.9249,
+            124.9516,
+            706.2889,
+            226.3805
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.754912,
+          "bbox_xyxy": [
+            604.4596,
+            56.9862,
+            657.8988,
+            203.8653
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 144,
+      "time_sec": 6.0,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.811804,
+          "bbox_xyxy": [
+            661.7905,
+            124.786,
+            706.3506,
+            226.4451
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.747181,
+          "bbox_xyxy": [
+            604.5427,
+            56.1733,
+            657.9086,
+            203.8984
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 145,
+      "time_sec": 6.0417,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.808321,
+          "bbox_xyxy": [
+            661.7371,
+            124.7429,
+            706.3792,
+            226.4036
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.749575,
+          "bbox_xyxy": [
+            604.5408,
+            55.701,
+            657.8949,
+            203.3779
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 146,
+      "time_sec": 6.0833,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.80343,
+          "bbox_xyxy": [
+            661.8228,
+            124.6553,
+            706.4645,
+            226.3037
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.745168,
+          "bbox_xyxy": [
+            604.5747,
+            55.4194,
+            657.9316,
+            203.6302
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 147,
+      "time_sec": 6.125,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.810227,
+          "bbox_xyxy": [
+            661.5428,
+            124.6909,
+            706.6202,
+            226.4376
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.75336,
+          "bbox_xyxy": [
+            604.4732,
+            55.2931,
+            657.9382,
+            203.2118
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 148,
+      "time_sec": 6.1667,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.80882,
+          "bbox_xyxy": [
+            661.6863,
+            124.3536,
+            706.8184,
+            226.2757
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.75212,
+          "bbox_xyxy": [
+            604.4299,
+            55.25,
+            657.8754,
+            203.1045
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 149,
+      "time_sec": 6.2083,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.807682,
+          "bbox_xyxy": [
+            661.7549,
+            124.2062,
+            707.0007,
+            226.1959
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.75719,
+          "bbox_xyxy": [
+            183.9829,
+            105.6183,
+            670.6199,
+            668.3671
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.752107,
+          "bbox_xyxy": [
+            604.4143,
+            55.2162,
+            657.8475,
+            203.0258
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 150,
+      "time_sec": 6.25,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.81321,
+          "bbox_xyxy": [
+            661.7816,
+            123.9301,
+            707.1063,
+            226.1644
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.782882,
+          "bbox_xyxy": [
+            183.0999,
+            106.1406,
+            671.9697,
+            667.6284
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.751826,
+          "bbox_xyxy": [
+            604.3881,
+            55.2554,
+            657.7858,
+            202.6762
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 151,
+      "time_sec": 6.2917,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.814715,
+          "bbox_xyxy": [
+            661.7777,
+            123.8157,
+            707.2501,
+            225.9864
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.7515,
+          "bbox_xyxy": [
+            604.3617,
+            55.3008,
+            657.712,
+            202.5425
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.732366,
+          "bbox_xyxy": [
+            181.6799,
+            106.5791,
+            669.6809,
+            667.6836
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 152,
+      "time_sec": 6.3333,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.810792,
+          "bbox_xyxy": [
+            662.0073,
+            123.4329,
+            707.3628,
+            226.0073
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.750246,
+          "bbox_xyxy": [
+            604.8684,
+            55.6648,
+            656.8088,
+            200.7184
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 153,
+      "time_sec": 6.375,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.812483,
+          "bbox_xyxy": [
+            661.9669,
+            123.2776,
+            707.4482,
+            225.9238
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.759842,
+          "bbox_xyxy": [
+            604.8495,
+            55.5307,
+            656.8492,
+            200.2394
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.710818,
+          "bbox_xyxy": [
+            173.589,
+            107.6902,
+            668.699,
+            667.5651
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 154,
+      "time_sec": 6.4167,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.807795,
+          "bbox_xyxy": [
+            662.1161,
+            123.0748,
+            707.5504,
+            225.5516
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.758109,
+          "bbox_xyxy": [
+            604.2788,
+            54.6309,
+            657.7224,
+            201.5595
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 155,
+      "time_sec": 6.4583,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.808022,
+          "bbox_xyxy": [
+            662.0164,
+            122.9437,
+            707.6714,
+            225.6752
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.758119,
+          "bbox_xyxy": [
+            604.2821,
+            54.4064,
+            657.7457,
+            201.6061
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.75234,
+          "bbox_xyxy": [
+            169.705,
+            109.4636,
+            671.0303,
+            667.3634
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 156,
+      "time_sec": 6.5,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.807156,
+          "bbox_xyxy": [
+            662.0398,
+            122.8779,
+            707.7209,
+            225.5336
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.764733,
+          "bbox_xyxy": [
+            604.2844,
+            54.1744,
+            657.7947,
+            201.2038
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.728977,
+          "bbox_xyxy": [
+            167.3163,
+            110.4745,
+            671.6542,
+            667.2383
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 157,
+      "time_sec": 6.5417,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.807642,
+          "bbox_xyxy": [
+            661.8936,
+            122.8768,
+            707.6758,
+            225.3755
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.765873,
+          "bbox_xyxy": [
+            604.2969,
+            53.9973,
+            657.8701,
+            201.15
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 158,
+      "time_sec": 6.5833,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.806142,
+          "bbox_xyxy": [
+            661.775,
+            122.7689,
+            707.7184,
+            225.1851
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.762205,
+          "bbox_xyxy": [
+            604.3164,
+            53.9152,
+            657.9426,
+            201.1002
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.722337,
+          "bbox_xyxy": [
+            166.0015,
+            109.9845,
+            671.6954,
+            667.5109
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 159,
+      "time_sec": 6.625,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.812812,
+          "bbox_xyxy": [
+            661.7371,
+            122.7407,
+            707.7442,
+            225.1029
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.765252,
+          "bbox_xyxy": [
+            604.2498,
+            53.8852,
+            657.9414,
+            200.9528
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 160,
+      "time_sec": 6.6667,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.79752,
+          "bbox_xyxy": [
+            661.6686,
+            122.4031,
+            707.8893,
+            224.8363
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.765639,
+          "bbox_xyxy": [
+            604.3083,
+            53.8256,
+            658.1355,
+            200.9875
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.700632,
+          "bbox_xyxy": [
+            166.7546,
+            109.0302,
+            671.2031,
+            668.3119
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 161,
+      "time_sec": 6.7083,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.798821,
+          "bbox_xyxy": [
+            661.688,
+            122.321,
+            707.9572,
+            224.7298
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.766613,
+          "bbox_xyxy": [
+            604.236,
+            53.7997,
+            658.1344,
+            201.0986
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.716675,
+          "bbox_xyxy": [
+            167.0564,
+            108.2826,
+            670.3774,
+            668.5417
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 162,
+      "time_sec": 6.75,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.807115,
+          "bbox_xyxy": [
+            661.5037,
+            122.2791,
+            707.9709,
+            224.4393
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.767119,
+          "bbox_xyxy": [
+            604.1967,
+            53.8241,
+            658.1781,
+            201.0735
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.704082,
+          "bbox_xyxy": [
+            168.0112,
+            107.624,
+            671.8455,
+            668.5884
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 163,
+      "time_sec": 6.7917,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.811735,
+          "bbox_xyxy": [
+            661.5305,
+            122.1891,
+            708.0097,
+            224.4681
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.766528,
+          "bbox_xyxy": [
+            604.1732,
+            53.7859,
+            658.1884,
+            200.8329
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.710822,
+          "bbox_xyxy": [
+            169.2481,
+            107.0179,
+            670.3075,
+            668.7362
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 164,
+      "time_sec": 6.8333,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.814046,
+          "bbox_xyxy": [
+            661.6932,
+            122.0698,
+            707.993,
+            224.3011
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.761454,
+          "bbox_xyxy": [
+            604.1461,
+            53.7369,
+            658.0949,
+            200.9047
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.743863,
+          "bbox_xyxy": [
+            169.739,
+            106.9695,
+            670.1433,
+            668.746
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 165,
+      "time_sec": 6.875,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.814248,
+          "bbox_xyxy": [
+            661.675,
+            122.0104,
+            707.8796,
+            224.3227
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.756865,
+          "bbox_xyxy": [
+            604.1165,
+            53.6371,
+            658.0928,
+            200.829
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.750378,
+          "bbox_xyxy": [
+            169.8034,
+            106.5839,
+            670.3787,
+            669.0662
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 166,
+      "time_sec": 6.9167,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.808947,
+          "bbox_xyxy": [
+            661.6531,
+            121.9813,
+            707.914,
+            224.2475
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.759831,
+          "bbox_xyxy": [
+            604.0257,
+            53.5951,
+            658.0506,
+            200.9062
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.751951,
+          "bbox_xyxy": [
+            169.0051,
+            106.791,
+            670.4144,
+            669.2574
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 167,
+      "time_sec": 6.9583,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.81047,
+          "bbox_xyxy": [
+            661.6567,
+            121.8852,
+            707.8584,
+            224.0887
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.760141,
+          "bbox_xyxy": [
+            603.9844,
+            53.5752,
+            658.0674,
+            201.0769
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.740277,
+          "bbox_xyxy": [
+            167.6269,
+            106.8082,
+            670.3684,
+            669.4495
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 168,
+      "time_sec": 7.0,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.805496,
+          "bbox_xyxy": [
+            661.6338,
+            121.8089,
+            707.9255,
+            223.9596
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.785048,
+          "bbox_xyxy": [
+            165.5433,
+            106.7129,
+            671.403,
+            669.7078
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.761717,
+          "bbox_xyxy": [
+            603.9627,
+            53.5911,
+            658.0527,
+            200.741
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 169,
+      "time_sec": 7.0417,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.803961,
+          "bbox_xyxy": [
+            661.7377,
+            121.8044,
+            707.8495,
+            223.871
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.785083,
+          "bbox_xyxy": [
+            164.7488,
+            106.4958,
+            670.7473,
+            669.863
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.76622,
+          "bbox_xyxy": [
+            604.0229,
+            53.6213,
+            658.1409,
+            200.403
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 170,
+      "time_sec": 7.0833,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.803826,
+          "bbox_xyxy": [
+            661.8489,
+            121.7086,
+            707.7764,
+            223.7302
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.79067,
+          "bbox_xyxy": [
+            163.9793,
+            106.2578,
+            670.7074,
+            669.757
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.767019,
+          "bbox_xyxy": [
+            604.0074,
+            53.6073,
+            658.067,
+            200.1926
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 171,
+      "time_sec": 7.125,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.80438,
+          "bbox_xyxy": [
+            661.9235,
+            121.6173,
+            707.8295,
+            223.6537
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.768862,
+          "bbox_xyxy": [
+            603.9923,
+            53.6169,
+            658.0758,
+            200.2193
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.754552,
+          "bbox_xyxy": [
+            164.165,
+            106.4106,
+            670.2802,
+            670.0825
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 172,
+      "time_sec": 7.1667,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.801456,
+          "bbox_xyxy": [
+            661.8423,
+            121.5991,
+            707.8731,
+            223.6935
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.771729,
+          "bbox_xyxy": [
+            603.9464,
+            53.6341,
+            658.0394,
+            200.1383
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.728401,
+          "bbox_xyxy": [
+            164.1985,
+            106.4846,
+            670.4902,
+            670.2294
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 173,
+      "time_sec": 7.2083,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.794594,
+          "bbox_xyxy": [
+            661.8921,
+            121.5915,
+            707.8618,
+            223.6877
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.770079,
+          "bbox_xyxy": [
+            603.9183,
+            53.6841,
+            658.0509,
+            200.2091
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.747201,
+          "bbox_xyxy": [
+            163.9083,
+            106.123,
+            670.65,
+            670.092
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.7081,
+          "bbox_xyxy": [
+            1078.6479,
+            253.2338,
+            1107.2759,
+            316.3819
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 174,
+      "time_sec": 7.25,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.79734,
+          "bbox_xyxy": [
+            661.8361,
+            121.5897,
+            707.8478,
+            223.6584
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.769262,
+          "bbox_xyxy": [
+            603.8627,
+            53.6982,
+            658.0255,
+            200.2094
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.739801,
+          "bbox_xyxy": [
+            163.6479,
+            106.0056,
+            670.2301,
+            670.2252
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.736375,
+          "bbox_xyxy": [
+            1078.8075,
+            253.1677,
+            1107.2179,
+            316.6071
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 175,
+      "time_sec": 7.2917,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.792135,
+          "bbox_xyxy": [
+            661.8849,
+            121.5341,
+            707.849,
+            223.6608
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.768684,
+          "bbox_xyxy": [
+            603.7491,
+            53.7,
+            658.0433,
+            200.2396
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.745598,
+          "bbox_xyxy": [
+            163.7568,
+            105.7277,
+            670.9613,
+            670.3104
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.744913,
+          "bbox_xyxy": [
+            1078.889,
+            253.1281,
+            1107.16,
+            316.7144
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 176,
+      "time_sec": 7.3333,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.802075,
+          "bbox_xyxy": [
+            661.9047,
+            121.1284,
+            707.9218,
+            223.5932
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.766832,
+          "bbox_xyxy": [
+            603.8787,
+            53.4709,
+            658.0563,
+            200.0384
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.766733,
+          "bbox_xyxy": [
+            163.559,
+            106.0448,
+            671.3601,
+            670.2068
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.744329,
+          "bbox_xyxy": [
+            1078.8489,
+            253.4017,
+            1107.0569,
+            316.0676
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 177,
+      "time_sec": 7.375,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.805953,
+          "bbox_xyxy": [
+            661.8301,
+            121.2017,
+            707.9309,
+            223.6181
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.784962,
+          "bbox_xyxy": [
+            163.5536,
+            105.7715,
+            671.6236,
+            670.4607
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.763211,
+          "bbox_xyxy": [
+            603.8649,
+            53.465,
+            658.1056,
+            200.2666
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.717466,
+          "bbox_xyxy": [
+            1078.9121,
+            253.5711,
+            1106.8042,
+            315.6066
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 178,
+      "time_sec": 7.4167,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.806166,
+          "bbox_xyxy": [
+            661.899,
+            121.1019,
+            707.9327,
+            223.5923
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.785492,
+          "bbox_xyxy": [
+            163.3091,
+            105.5221,
+            671.142,
+            670.2443
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.761663,
+          "bbox_xyxy": [
+            603.8427,
+            53.4253,
+            658.0968,
+            200.0609
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 179,
+      "time_sec": 7.4583,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.809957,
+          "bbox_xyxy": [
+            661.8135,
+            121.1049,
+            707.9673,
+            223.4975
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.78431,
+          "bbox_xyxy": [
+            163.2718,
+            105.356,
+            670.9729,
+            670.4912
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.760537,
+          "bbox_xyxy": [
+            603.874,
+            53.3459,
+            658.0786,
+            200.1625
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 180,
+      "time_sec": 7.5,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.807442,
+          "bbox_xyxy": [
+            661.8107,
+            121.0198,
+            707.9208,
+            223.5159
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.79077,
+          "bbox_xyxy": [
+            163.2299,
+            105.4397,
+            670.6769,
+            670.4391
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.763393,
+          "bbox_xyxy": [
+            603.868,
+            53.3308,
+            658.0648,
+            200.0776
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 181,
+      "time_sec": 7.5417,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.810159,
+          "bbox_xyxy": [
+            661.8534,
+            120.9326,
+            707.8964,
+            223.4714
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.782889,
+          "bbox_xyxy": [
+            163.3215,
+            105.6425,
+            671.1442,
+            670.7808
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.763121,
+          "bbox_xyxy": [
+            603.9258,
+            53.2451,
+            658.0965,
+            200.0311
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 182,
+      "time_sec": 7.5833,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.809121,
+          "bbox_xyxy": [
+            661.8368,
+            120.9349,
+            707.9022,
+            223.5219
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.784024,
+          "bbox_xyxy": [
+            163.3104,
+            105.4988,
+            671.3093,
+            670.9935
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.762922,
+          "bbox_xyxy": [
+            603.9699,
+            53.1666,
+            658.0895,
+            199.8765
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 183,
+      "time_sec": 7.625,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.811619,
+          "bbox_xyxy": [
+            661.7498,
+            120.9076,
+            707.969,
+            223.5738
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.781372,
+          "bbox_xyxy": [
+            163.228,
+            105.4268,
+            672.1027,
+            671.0573
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.762134,
+          "bbox_xyxy": [
+            604.024,
+            53.1171,
+            658.1571,
+            199.9251
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 184,
+      "time_sec": 7.6667,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.812264,
+          "bbox_xyxy": [
+            661.8151,
+            120.636,
+            707.8939,
+            223.4043
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.779492,
+          "bbox_xyxy": [
+            603.9727,
+            53.1124,
+            658.1944,
+            200.1351
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.776681,
+          "bbox_xyxy": [
+            163.322,
+            105.9102,
+            673.2828,
+            670.6355
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 185,
+      "time_sec": 7.7083,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.811912,
+          "bbox_xyxy": [
+            661.9142,
+            120.7139,
+            707.931,
+            223.321
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.779906,
+          "bbox_xyxy": [
+            603.8767,
+            53.0659,
+            658.167,
+            200.1076
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.758207,
+          "bbox_xyxy": [
+            163.1997,
+            105.6791,
+            673.9847,
+            670.239
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 186,
+      "time_sec": 7.75,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.811743,
+          "bbox_xyxy": [
+            661.8163,
+            120.7318,
+            707.9076,
+            223.347
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.780569,
+          "bbox_xyxy": [
+            163.1404,
+            105.2924,
+            673.5562,
+            670.0708
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.780337,
+          "bbox_xyxy": [
+            603.8735,
+            53.0561,
+            658.1975,
+            200.3776
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 187,
+      "time_sec": 7.7917,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.811094,
+          "bbox_xyxy": [
+            661.7044,
+            120.625,
+            707.9097,
+            223.3253
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.784193,
+          "bbox_xyxy": [
+            163.1963,
+            105.2192,
+            673.3984,
+            670.0052
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.778314,
+          "bbox_xyxy": [
+            603.8596,
+            52.9727,
+            658.23,
+            200.3434
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 188,
+      "time_sec": 7.8333,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.811379,
+          "bbox_xyxy": [
+            661.7295,
+            120.608,
+            707.9038,
+            223.2867
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.778575,
+          "bbox_xyxy": [
+            163.2613,
+            105.3697,
+            672.8834,
+            670.1616
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.776815,
+          "bbox_xyxy": [
+            603.889,
+            52.9947,
+            658.2236,
+            200.275
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 189,
+      "time_sec": 7.875,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.810494,
+          "bbox_xyxy": [
+            661.6892,
+            120.6339,
+            707.8762,
+            223.2668
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.78079,
+          "bbox_xyxy": [
+            163.2365,
+            105.2703,
+            672.8231,
+            670.3433
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.775492,
+          "bbox_xyxy": [
+            603.8375,
+            52.9734,
+            658.2281,
+            200.3342
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 190,
+      "time_sec": 7.9167,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.811969,
+          "bbox_xyxy": [
+            661.647,
+            120.5963,
+            707.8531,
+            223.272
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.776984,
+          "bbox_xyxy": [
+            603.8049,
+            52.9794,
+            658.2454,
+            200.315
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.772848,
+          "bbox_xyxy": [
+            163.2437,
+            105.4014,
+            672.7064,
+            670.5504
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 191,
+      "time_sec": 7.9583,
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.811046,
+          "bbox_xyxy": [
+            661.6613,
+            120.512,
+            707.8524,
+            223.3116
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.777524,
+          "bbox_xyxy": [
+            603.814,
+            52.9947,
+            658.219,
+            200.3955
+          ]
+        },
+        {
+          "class_id": 61,
+          "class_name": "toilet",
+          "confidence": 0.771301,
+          "bbox_xyxy": [
+            163.2409,
+            105.2166,
+            673.1194,
+            670.3862
+          ]
+        }
+      ]
+    }
+  ]
+}

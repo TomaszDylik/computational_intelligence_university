@@ -1,0 +1,6 @@
+{
+  "model": "yolov8n.pt",
+  "dataset": "COCO",
+  "number_of_classes": 80,
+  "cnn_inside": "YOLOv8n uses a convolutional neural network backbone with C2f blocks and a detection head."
+}
