@@ -103,16 +103,6 @@ def save_visualizations(model, image_paths, class_ids, output_dir):
 
 	return per_image
 
-
-# prosty wniosek do raportu i do powiedzenia prowadzacemu
-def build_conclusion(total_detections, images_with_detections):
-	if total_detections == 0:
-		return "YOLO nie wykryl zadnych obiektow. Proba pokazuje, ze ten model w tej konfiguracji nie radzi sobie z tak malymi miniaturami."
-	if total_detections <= 2:
-		return "YOLO wykryl tylko pojedyncze obiekty. To oznacza, ze zadanie zostalo sprawdzone czesciowo, ale model slabo radzi sobie z bardzo malymi ptakami."
-	return "YOLO wykryl czesc obiektow, ale wynik nadal jest niepelny i trzeba traktowac go jako probe, a nie dokladny licznik."
-
-
 def main():
 	base_dir = Path(__file__).resolve().parent
 	images_dir = base_dir / IMAGES_DIR
@@ -129,7 +119,6 @@ def main():
 	per_image = save_visualizations(model, image_paths, class_ids, output_dir)
 	total_detections = sum(item["count"] for item in per_image)
 	images_with_detections = sum(1 for item in per_image if item["count"] > 0)
-	conclusion = build_conclusion(total_detections, images_with_detections)
 
 	report = {
 		"task": "YOLO i licznik ptakow - wersja skrocona",
@@ -143,7 +132,6 @@ def main():
 		"total_detections": total_detections,
 		"images_with_detections": images_with_detections,
 		"per_image": per_image,
-		"conclusion": conclusion,
 	}
 	save_json(output_dir / "report.json", report)
 
@@ -159,8 +147,6 @@ def main():
 		print(f"{item['image']}: {item['count']}")
 
 	print()
-	print(f"Wniosek: {conclusion}")
-
 
 if __name__ == "__main__":
 	main()
