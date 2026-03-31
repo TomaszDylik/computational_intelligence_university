@@ -1,0 +1,111 @@
+{
+  "task": "YOLO i licznik ptakow - wersja skrocona",
+  "model": "yolov8n.pt",
+  "checked_classes": [
+    "bird",
+    "airplane",
+    "kite"
+  ],
+  "attempt": {
+    "confidence_threshold": 0.01,
+    "scale_factor": 4,
+    "preprocessing": "none"
+  },
+  "total_detections": 1,
+  "images_with_detections": 1,
+  "per_image": [
+    {
+      "image": "E0071_TR0001_OB0031_T01_M02.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0089_TR0005_OB2257_T01_M13.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0089_TR0006_OB0366_T01_M16.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0098_TR0000_OB0098_T01_M04.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0206_TR0001_OB0020_T01_M10.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0222_TR0000_OB0077_T01_M16.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0294_TR0000_OB0030_T01_M10.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0297_TR0000_OB0036_T01_M16.jpg",
+      "count": 1,
+      "detections": [
+        {
+          "class_id": 14,
+          "class_name": "bird",
+          "confidence": 0.014985,
+          "bbox_xyxy": [
+            182.5606,
+            179.2015,
+            209.117,
+            224.304
+          ]
+        }
+      ]
+    },
+    {
+      "image": "E0411_TR0001_OB0477_T01_M02.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0411_TR0001_OB0486_T01_M02.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0418_TR0000_OB1504_T01_M02.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0418_TR0000_OB1594_T01_M04.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0418_TR0000_OB1797_T01_M04.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0453_TR0001_OB0301_T01_M02.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0453_TR0001_OB0564_T01_M02.jpg",
+      "count": 0,
+      "detections": []
+    },
+    {
+      "image": "E0454_TR0000_OB0010_T01_M02.jpg",
+      "count": 0,
+      "detections": []
+    }
+  ],
+  "conclusion": "YOLO wykryl tylko pojedyncze obiekty. To oznacza, ze zadanie zostalo sprawdzone czesciowo, ale model slabo radzi sobie z bardzo malymi ptakami."
+}
